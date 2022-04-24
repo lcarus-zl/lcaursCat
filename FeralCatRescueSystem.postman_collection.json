@@ -51,7 +51,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://101.33.246.107:8088/login/getInfo",
+							"raw": "https://101.33.246.107:8088/login/getInfo",
 							"protocol": "http",
 							"host": [
 								"101",
@@ -81,7 +81,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://101.33.246.107:8088/login/logout",
+							"raw": "https://101.33.246.107:8088/login/logout",
 							"protocol": "http",
 							"host": [
 								"101",
@@ -116,7 +116,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://101.33.246.107:8088/user/list?pageNum=1&pageRow=4",
+							"raw": "https://101.33.246.107:8088/user/list?pageNum=1&pageRow=4",
 							"protocol": "http",
 							"host": [
 								"101",
@@ -167,7 +167,7 @@
 							"raw": "{\r\n    \"username\":\"tests3331\",\r\n    \"password\":\"123456\",\r\n    \"nickname\":\"测试机1322\",\r\n    \"sex\":\"女\",\r\n    \"age\":\"21\",\r\n    \"tel\":\"1258745896\",\r\n    \"address\":\"地球\",\r\n    \"roleIds\":[\r\n        2\r\n    ]\r\n}"
 						},
 						"url": {
-							"raw": "http://101.33.246.107:8088/user/addUser",
+							"raw": "https://101.33.246.107:8088/user/addUser",
 							"protocol": "http",
 							"host": [
 								"101",
@@ -206,7 +206,7 @@
 							"raw": "{\r\n    \"username\":\"注册t221\",\r\n    \"password\":\"123456\",\r\n    \"nickname\":\"测试机221\",\r\n    \"sex\":\"女\",\r\n    \"age\":\"21\",\r\n    \"tel\":\"1258745896\",\r\n    \"address\":\"地球\"\r\n}"
 						},
 						"url": {
-							"raw": "http://101.33.246.107:8088/user/register",
+							"raw": "https://101.33.246.107:8088/user/register",
 							"protocol": "http",
 							"host": [
 								"101",
@@ -278,7 +278,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://101.33.246.107:8088/user/getAllRoles",
+							"raw": "https://101.33.246.107:8088/user/getAllRoles",
 							"protocol": "http",
 							"host": [
 								"101",
@@ -334,7 +334,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://101.33.246.107:8088/user/batchDeleteUser",
+							"raw": "https://101.33.246.107:8088/user/batchDeleteUser",
 							"protocol": "http",
 							"host": [
 								"101",
@@ -370,7 +370,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://101.33.246.107:8088/user/listByName?pageNum=1&pageRow=10&nickname=2",
+							"raw": "https://101.33.246.107:8088/user/listByName?pageNum=1&pageRow=10&nickname=2",
 							"protocol": "http",
 							"host": [
 								"101",

@@ -1,6 +1,7 @@
 {
   "name": "vue_shop",
   "version": "1.1.5",
+  "homepage": "https://lcarus-zl.github.io/lcaursCat/",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

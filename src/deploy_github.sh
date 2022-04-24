@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 yarn build &&
-cd build &&
+cd dist &&
 git init &&
 git add . && 
 git commit -m 'deploy' && 

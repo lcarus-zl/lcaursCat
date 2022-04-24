@@ -259,13 +259,13 @@ export default {
         let roleID = [Number(this.addForm.roleIds)];
         delete this.addForm.roleIds;
         this.addForm.roleIds = roleID;
-        console.log(this.addForm);
+        console.log("addForm", this.addForm);
         // 发起添加用户的网络请求
         const { data: data } = await this.$http.post(
           "user/register",
           this.addForm
         );
-        console.log(data);
+        console.log("addUser", data);
         if (data.code == "200") {
           this.$message.success("注册用户成功！");
           this.registerVisible = false;
@@ -281,9 +281,9 @@ export default {
 </script>
 // scoped代表只渲染当前组件
 <style lang="less" scoped>
-.bg{
-    background-color: #788dafc2;
-    height: 100%;
+.bg {
+  background-color: #788dafc2;
+  height: 100%;
 }
 .login_container {
   background-color: #788dafc2;
